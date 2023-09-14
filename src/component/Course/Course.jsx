@@ -1,0 +1,34 @@
+import React from "react";
+import { BiDollar, BiBookOpen } from "react-icons/bi";
+
+const Course = ({ course }) => {
+   const { id, cover, title, description, price, credit } = course;
+   return (
+      <div className="">
+         <div className="card card-compact h-96 bg-base-100 shadow-xl">
+            <figure className="p-2">
+               <img className="w-full" src={cover} alt="Shoes" />
+            </figure>
+            <div className="card-body">
+               <h2 className="card-title">{title}</h2>
+               <p>{description}</p>
+               <div className="flex justify-between">
+                  <div className="flex justify-around items-center gap-2">
+                     <BiDollar />
+                     <p>Price: {price}</p>
+                  </div>
+                  <div className="flex justify-around items-center gap-2">
+                     <BiBookOpen />
+                     <p>Credit: {credit} hr</p>
+                  </div>
+               </div>
+               <button className="btn btn-primary bg-blue-500 text-white">
+                  Select
+               </button>
+            </div>
+         </div>
+      </div>
+   );
+};
+
+export default Course;

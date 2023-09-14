@@ -1,0 +1,74 @@
+[
+   {
+      "id": 1,
+      "cover": "https://i.ibb.co/7K3fn49/Rectangle-1.png",
+      "title": "Introduction to C Programming",
+      "description": "Learn the fundamentals of programming with this introductory course.",
+      "price": 49,
+      "credit": 3
+   },
+   {
+      "id": 2,
+      "cover": "https://i.ibb.co/K9ryvD0/Rectangle-2.png",
+      "title": "Introduction to Algorithms",
+      "description": "Master data structures and algorithms in this advanced course.",
+      "price": 79,
+      "credit": 4
+   },
+   {
+      "id": 3,
+      "cover": "https://i.ibb.co/DbTxQ5K/Rectangle-3.png",
+      "title": "Introduction to C++ for DSA",
+      "description": "Become a full-stack web developer in this intensive bootcamp.",
+      "price": 149,
+      "credit": 6
+   },
+   {
+      "id": 4,
+      "cover": "https://i.ibb.co/RQ0fYHg/Rectangle-4.png",
+      "title": "Basic Data Structures",
+      "description": "Get started with machine learning in this foundational course.",
+      "price": 99,
+      "credit": 5
+   },
+   {
+      "id": 5,
+      "cover": "https://i.ibb.co/Wn5pppQ/Rectangle-5.png",
+      "title": "Introduction to OOP Python",
+      "description": "Learn the essentials of digital marketing and SEO.",
+      "price": 69,
+      "credit": 3
+   },
+   {
+      "id": 6,
+      "cover": "https://i.ibb.co/3Msvpzj/Rectangle-6.png",
+      "title": "Software Engineering",
+      "description": "Master financial concepts for effective business management.",
+      "price": 89,
+      "credit": 4
+   },
+   {
+      "id": 7,
+      "cover": "https://i.ibb.co/zGG2BMG/Rectangle-7.png",
+      "title": "AWS, Cloud Computing",
+      "description": "Explore the applications of AI in the healthcare industry.",
+      "price": 119,
+      "credit": 5
+   },
+   {
+      "id": 8,
+      "cover": "https://i.ibb.co/42H5rJX/Rectangle-8.png",
+      "title": "Database (MySQL)",
+      "description": "Learn the basics of graphic design and visual communication.",
+      "price": 59,
+      "credit": 3
+   },
+   {
+      "id": 9,
+      "cover": "https://i.ibb.co/XV3m8CL/Rectangle-9.png",
+      "title": "Problem-Solving Part",
+      "description": "Become an ethical hacker and protect against cyber threats.",
+      "price": 129,
+      "credit": 6
+   }
+]

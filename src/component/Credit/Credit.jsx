@@ -1,11 +1,11 @@
 import React from "react";
 import Cart from "../Cart/Cart";
 
-const Credit = ({ courseName, totalCost, totalCredit }) => {
+const Credit = ({ courseName, totalCost, totalCredit, remaining }) => {
    return (
       <div>
          <h2 className="text-lg font-bold text-blue-500 pb-3 border-b-2 border-black">
-            Credit Hour Remaining hr
+            Credit Hour Remaining {remaining} hr
          </h2>
          <ol>
             {courseName.map((course, idx) => (

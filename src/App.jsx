@@ -7,16 +7,21 @@ const App = () => {
    const [courseName, setCourseName] = useState([]);
    const [totalCost, setTotalCost] = useState(0);
    const [totalCredit, setTotalCredit] = useState(0);
+   const [remaining, setRemaining] = useState(20);
 
    const handleAddCourse = (course) => {
-      const isExist = courseName.find(item => item.id == course.id)
+      const isExist = courseName.find((item) => item.id == course.id);
       if (isExist) {
-         return alert('Course already added to your selection. Please choose a different course.')
+         return alert(
+            "Course already added to your selection. Please choose a different course."
+         );
       }
       const newTotalCost = totalCost + course.price;
       setTotalCost(newTotalCost);
       const newTotalCredit = totalCredit + course.credit;
       setTotalCredit(newTotalCredit);
+      const newRemaining = remaining - course.credit;
+      setRemaining(newRemaining);
       const selectedCourse = [...courseName, course];
       setCourseName(selectedCourse);
    };
@@ -29,6 +34,7 @@ const App = () => {
             <Credit
                totalCost={totalCost}
                totalCredit={totalCredit}
+               remaining={remaining}
                courseName={courseName}></Credit>
          </div>
       </div>

@@ -17,11 +17,16 @@ const App = () => {
          );
       }
       const newTotalCost = totalCost + course.price;
-      setTotalCost(newTotalCost);
       const newTotalCredit = totalCredit + course.credit;
-      setTotalCredit(newTotalCredit);
       const newRemaining = remaining - course.credit;
+
+      if (newRemaining < 0) {
+         return alert("Sorry, you've exceeded your credit limit.");
+      }
+
       setRemaining(newRemaining);
+      setTotalCost(newTotalCost);
+      setTotalCredit(newTotalCredit);
       const selectedCourse = [...courseName, course];
       setCourseName(selectedCourse);
    };

@@ -1,7 +1,7 @@
 import React from "react";
 import { BiDollar, BiBookOpen } from "react-icons/bi";
 
-const Course = ({ course }) => {
+const Course = ({ course, handleAddCourse }) => {
    const { id, cover, title, description, price, credit } = course;
    return (
       <div className="">
@@ -22,7 +22,9 @@ const Course = ({ course }) => {
                      <p>Credit: {credit} hr</p>
                   </div>
                </div>
-               <button className="btn btn-primary bg-blue-500 text-white">
+               <button
+                  onClick={() => handleAddCourse(course)}
+                  className="btn btn-primary bg-blue-500 text-white">
                   Select
                </button>
             </div>

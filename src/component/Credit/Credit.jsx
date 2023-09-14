@@ -1,11 +1,11 @@
 import React from "react";
 import Cart from "../Cart/Cart";
 
-const Credit = ({ courseName }) => {
+const Credit = ({ courseName, totalCost, totalCredit }) => {
    return (
       <div>
          <h2 className="text-lg font-bold text-blue-500 pb-3 border-b-2 border-black">
-            Credit Hour Remaining 20 hr
+            Credit Hour Remaining hr
          </h2>
          <ol>
             {courseName.map((course, idx) => (
@@ -15,12 +15,12 @@ const Credit = ({ courseName }) => {
             ))}
          </ol>
          <div>
-         <h2 className="text-lg border-y-2 border-black my-3 py-2 font-medium">
-                  Total Credit Hour : 20
-               </h2>
-               <h3 className="font-semibold text-lg">
-                  Total Price : 100 USD
-               </h3>
+            <h2 className="text-lg border-y-2 border-black my-3 py-2 font-medium">
+               Total Credit Hour : {totalCredit}
+            </h2>
+            <h3 className="font-semibold text-lg">
+               Total Price : {totalCost} USD
+            </h3>
          </div>
       </div>
    );

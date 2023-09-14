@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
-const Cart = ({course}) => {
+const Cart = ({ course }) => {
    return (
       <div>
-         <h2>{course.title}</h2>
+         <ol>
+            <li className="text-base pb-1">{course.title}</li>
+         </ol>
       </div>
    );
 };

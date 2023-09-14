@@ -1,4 +1,5 @@
 import React from "react";
+
 import { BiDollar, BiBookOpen } from "react-icons/bi";
 
 const Course = ({ course, handleAddCourse }) => {
@@ -13,11 +14,11 @@ const Course = ({ course, handleAddCourse }) => {
                <h2 className="card-title">{title}</h2>
                <p>{description}</p>
                <div className="flex justify-between">
-                  <div className="flex justify-around items-center gap-2">
+                  <div className="flex justify-around items-center gap-2 text-base font-medium">
                      <BiDollar />
                      <p>Price: {price}</p>
                   </div>
-                  <div className="flex justify-around items-center gap-2">
+                  <div className="flex justify-around items-center gap-2 text-base font-medium">
                      <BiBookOpen />
                      <p>Credit: {credit} hr</p>
                   </div>

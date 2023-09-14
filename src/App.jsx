@@ -1,49 +1,55 @@
-import React, { useState } from "react";
-import Header from "./component/Header/Header";
+import { useState } from "react";
 import Courses from "./component/Courses/Courses";
 import Credit from "./component/Credit/Credit";
+import Header from "./component/Header/Header";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-const App = () => {
+function App() {
    const [courseName, setCourseName] = useState([]);
    const [totalCost, setTotalCost] = useState(0);
    const [totalCredit, setTotalCredit] = useState(0);
    const [remaining, setRemaining] = useState(20);
 
    const handleAddCourse = (course) => {
-      const isExist = courseName.find((item) => item.id == course.id);
+      const isExist = courseName.find((item) => item.id === course.id);
       if (isExist) {
-         return alert(
+         return toast(
             "Course already added to your selection. Please choose a different course."
          );
       }
-      const newTotalCost = totalCost + course.price;
-      const newTotalCredit = totalCredit + course.credit;
+
       const newRemaining = remaining - course.credit;
-
       if (newRemaining < 0) {
-         return alert("Sorry, you've exceeded your credit limit.");
+         return toast("Sorry, you've exceeded your credit limit.");
       }
-
       setRemaining(newRemaining);
-      setTotalCost(newTotalCost);
+
+      const newTotalCredit = totalCredit + course.credit;
       setTotalCredit(newTotalCredit);
-      const selectedCourse = [...courseName, course];
-      setCourseName(selectedCourse);
+
+      const newTotalCost = totalCost + course.price;
+      setTotalCost(newTotalCost);
+
+      const updatedCourseList = [...courseName, course];
+      setCourseName(updatedCourseList);
    };
 
    return (
       <div className="container mx-auto">
-         <Header></Header>
-         <div className="flex gap-4">
-            <Courses handleAddCourse={handleAddCourse}></Courses>
+         <Header />
+         <div className="grid xl:flex gap-4 p-5 lg:p-0">
+            <Courses handleAddCourse={handleAddCourse} />
             <Credit
-               totalCost={totalCost}
-               totalCredit={totalCredit}
                remaining={remaining}
-               courseName={courseName}></Credit>
+               totalCredit={totalCredit}
+               totalCost={totalCost}
+               courseName={courseName}
+            />
          </div>
+         <ToastContainer />
       </div>
    );
-};
+}
 
 export default App;

@@ -1,9 +1,8 @@
 import React from "react";
-
 import { BiDollar, BiBookOpen } from "react-icons/bi";
 
-const Course = ({ course, handleAddCourse }) => {
-   const { id, cover, title, description, price, credit } = course;
+const Course = ({ allCourseData, handleAddCourse }) => {
+   const { id, cover, title, description, price, credit } = allCourseData;
    return (
       <div className="">
          <div className="card card-compact h-96 bg-base-100 shadow-xl">
@@ -24,7 +23,7 @@ const Course = ({ course, handleAddCourse }) => {
                   </div>
                </div>
                <button
-                  onClick={() => handleAddCourse(course)}
+                  onClick={() => handleAddCourse(allCourseData)}
                   className="btn btn-primary bg-blue-500 text-white">
                   Select
                </button>

@@ -3,7 +3,7 @@
       "id": 1,
       "cover": "https://i.ibb.co/7K3fn49/Rectangle-1.png",
       "title": "Introduction to C Programming",
-      "description": "Discover programming fundamentals in this introductory course designed to build a strong foundation in coding.",
+      "description": "Dive into the world of programming with our 'Introduction to C Programming' course. Learn the fundamentals and build a strong coding foundation.",
       "price": 49,
       "credit": 3
    },
@@ -19,7 +19,7 @@
       "id": 3,
       "cover": "https://i.ibb.co/DbTxQ5K/Rectangle-3.png",
       "title": "Introduction to C++ for DSA",
-      "description": "Join an intensive bootcamp to become a skilled full-stack web developer, mastering the art of web development and coding.",
+      "description": "Gain proficiency in C++ programming for Data Structures and Algorithms with our introductory course. Elevate your coding skills today!",
       "price": 149,
       "credit": 6
    },
@@ -27,7 +27,7 @@
       "id": 4,
       "cover": "https://i.ibb.co/RQ0fYHg/Rectangle-4.png",
       "title": "Basic Data Structures",
-      "description": "Begin your machine learning journey with this comprehensive foundational course, covering the essential concepts and techniques.",
+      "description": "Build a solid foundation in basic data structures essential for programming. Start your journey into effective coding with us!",
       "price": 99,
       "credit": 5
    },
@@ -35,7 +35,7 @@
       "id": 5,
       "cover": "https://i.ibb.co/Wn5pppQ/Rectangle-5.png",
       "title": "Introduction to OOP Python",
-      "description": "Acquire essential digital marketing and SEO skills to boost your online presence and drive success in the digital landscape.",
+      "description": "Embark on a journey into Object-Oriented Programming with Python. Master the principles and unleash your coding potential!",
       "price": 69,
       "credit": 3
    },
@@ -43,7 +43,7 @@
       "id": 6,
       "cover": "https://i.ibb.co/3Msvpzj/Rectangle-6.png",
       "title": "Software Engineering",
-      "description": "Master essential financial concepts for effective business management and decision-making in this comprehensive course.",
+      "description": "Explore the world of Software Engineering, from design to development. Build robust, efficient, and scalable software systems.",
       "price": 89,
       "credit": 4
    },
@@ -51,7 +51,7 @@
       "id": 7,
       "cover": "https://i.ibb.co/zGG2BMG/Rectangle-7.png",
       "title": "AWS, Cloud Computing",
-      "description": "Discover AI's vital role in revolutionizing healthcare, exploring its applications, innovations, and potential impact on the industry.",
+      "description": "Discover the power of AWS in Cloud Computing. Learn to leverage the cloud for scalable, secure, and efficient IT solutions.",
       "price": 119,
       "credit": 5
    },
@@ -59,7 +59,7 @@
       "id": 8,
       "cover": "https://i.ibb.co/42H5rJX/Rectangle-8.png",
       "title": "Database (MySQL)",
-      "description": "Acquire foundational skills in graphic design and visual communication to enhance your creative abilities and communication prowess.",
+      "description": "Unlock the world of databases with MySQL. Learn to manage and optimize data for efficient and secure information storage.",
       "price": 59,
       "credit": 3
    },
@@ -67,7 +67,7 @@
       "id": 9,
       "cover": "https://i.ibb.co/XV3m8CL/Rectangle-9.png",
       "title": "Problem-Solving Part",
-      "description": "Become an ethical hacker, defending against cyber threats with advanced skills and techniques in this comprehensive course.",
+      "description": "Enhance your problem-solving skills with our dedicated course on effective techniques and strategies. Master the art of solutions.",
       "price": 129,
       "credit": 6
    }

@@ -3,7 +3,7 @@
       "id": 1,
       "cover": "https://i.ibb.co/7K3fn49/Rectangle-1.png",
       "title": "Introduction to C Programming",
-      "description": "Learn the fundamentals of programming with this introductory course.",
+      "description": "Discover programming fundamentals in this introductory course designed to build a strong foundation in coding.",
       "price": 49,
       "credit": 3
    },
@@ -11,7 +11,7 @@
       "id": 2,
       "cover": "https://i.ibb.co/K9ryvD0/Rectangle-2.png",
       "title": "Introduction to Algorithms",
-      "description": "Master data structures and algorithms in this advanced course.",
+      "description": "Excel in mastering data structures and algorithms through this comprehensive and advanced algorithms course.",
       "price": 79,
       "credit": 4
    },
@@ -19,7 +19,7 @@
       "id": 3,
       "cover": "https://i.ibb.co/DbTxQ5K/Rectangle-3.png",
       "title": "Introduction to C++ for DSA",
-      "description": "Become a full-stack web developer in this intensive bootcamp.",
+      "description": "Join an intensive bootcamp to become a skilled full-stack web developer, mastering the art of web development and coding.",
       "price": 149,
       "credit": 6
    },
@@ -27,7 +27,7 @@
       "id": 4,
       "cover": "https://i.ibb.co/RQ0fYHg/Rectangle-4.png",
       "title": "Basic Data Structures",
-      "description": "Get started with machine learning in this foundational course.",
+      "description": "Begin your machine learning journey with this comprehensive foundational course, covering the essential concepts and techniques.",
       "price": 99,
       "credit": 5
    },
@@ -35,7 +35,7 @@
       "id": 5,
       "cover": "https://i.ibb.co/Wn5pppQ/Rectangle-5.png",
       "title": "Introduction to OOP Python",
-      "description": "Learn the essentials of digital marketing and SEO.",
+      "description": "Acquire essential digital marketing and SEO skills to boost your online presence and drive success in the digital landscape.",
       "price": 69,
       "credit": 3
    },
@@ -43,7 +43,7 @@
       "id": 6,
       "cover": "https://i.ibb.co/3Msvpzj/Rectangle-6.png",
       "title": "Software Engineering",
-      "description": "Master financial concepts for effective business management.",
+      "description": "Master essential financial concepts for effective business management and decision-making in this comprehensive course.",
       "price": 89,
       "credit": 4
    },
@@ -51,7 +51,7 @@
       "id": 7,
       "cover": "https://i.ibb.co/zGG2BMG/Rectangle-7.png",
       "title": "AWS, Cloud Computing",
-      "description": "Explore the applications of AI in the healthcare industry.",
+      "description": "Discover AI's vital role in revolutionizing healthcare, exploring its applications, innovations, and potential impact on the industry.",
       "price": 119,
       "credit": 5
    },
@@ -59,7 +59,7 @@
       "id": 8,
       "cover": "https://i.ibb.co/42H5rJX/Rectangle-8.png",
       "title": "Database (MySQL)",
-      "description": "Learn the basics of graphic design and visual communication.",
+      "description": "Acquire foundational skills in graphic design and visual communication to enhance your creative abilities and communication prowess.",
       "price": 59,
       "credit": 3
    },
@@ -67,7 +67,7 @@
       "id": 9,
       "cover": "https://i.ibb.co/XV3m8CL/Rectangle-9.png",
       "title": "Problem-Solving Part",
-      "description": "Become an ethical hacker and protect against cyber threats.",
+      "description": "Become an ethical hacker, defending against cyber threats with advanced skills and techniques in this comprehensive course.",
       "price": 129,
       "credit": 6
    }

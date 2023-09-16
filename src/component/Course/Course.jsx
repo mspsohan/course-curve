@@ -6,7 +6,7 @@ const Course = ({ allCourseData, handleAddCourse }) => {
    return (
       <div className="">
          <div className="card card-compact h-96 bg-base-100 shadow-xl">
-            <figure className="p-2">
+            <figure className="p-5">
                <img className="w-full" src={cover} alt="Shoes" />
             </figure>
             <div className="card-body">

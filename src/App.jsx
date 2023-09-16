@@ -19,7 +19,7 @@ function App() {
          );
       }
 
-      const newRemaining = remainingCredit - course.credit;
+      const newRemaining = remainingCredit - course.credit;   
       const newTotalCredit = totalCredit + course.credit;
       if (newRemaining < 0 && newTotalCredit > 20) {
          return toast("Sorry, you don't have enough credit.");

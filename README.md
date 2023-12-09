@@ -1,6 +1,4 @@
-# React Course Curve Project
-
-# React Course Curve Project
+# Course Curve Project
 
 Welcome to the React Course Curve project! This project allows users to explore and register for courses, providing features such as fetching data from an API, responsive design, and credit management.
 

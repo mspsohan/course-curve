@@ -1,16 +1,12 @@
 # React Course Curve Project
 
+# React Course Curve Project
+
 Welcome to the React Course Curve project! This project allows users to explore and register for courses, providing features such as fetching data from an API, responsive design, and credit management.
 
 ## Live Site
 
 Explore the live site [Course Curve](https://course-curve.netlify.app).
-
-## Project Features
-
-# React Course Curve Project
-
-Welcome to the React Course Curve project! This project allows users to explore and register for courses, providing features such as fetching data from an API, responsive design, and credit management.
 
 ## Project Overview
 
